@@ -9,7 +9,7 @@
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-    <title>Amarok Systems</title>
+    <title>Cytan Systems</title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <!-- Font-Awesome Icons Styles -->
@@ -94,7 +94,7 @@
 				<a href="rules.php">Portfolio</a>
 			  </li>
 			  <li id ="index"<?php  if(strpos($_SERVER['PHP_SELF'],'index') !== false) { ?> class="active1" <?php } ?> >
-				<a href="index.php">Amarok Systems</a>
+				<a href="index.php">Cytan Systems</a>
 				</li>
 			  <li id="donate" <?php  if(strpos($_SERVER['PHP_SELF'],'donate') !== false) { ?> class="active1" <?php } ?> >
 			  <a href="donate.php">Services</a></li>
