@@ -149,7 +149,32 @@ color: #fff !important;
   top: 0;
 }
 
-
+.inline-border {
+  position: relative;
+  display: block;
+  
+  color: #444444; }
+  .inline-border:before, .inline-border:after {
+    content: '';
+    height: 1px;
+    width: 25%;
+    background-color: #cccccc;
+    position: absolute;
+    left: 0;
+    top: 50%; }
+    @media (min-width: 768px) and (max-width: 979px) {
+      .inline-border:before, .inline-border:after {
+        width: 17%; } }
+    @media (max-width: 767px) {
+      .inline-border:before, .inline-border:after {
+        display: none; } }
+  .inline-border:after {
+    right: 0;
+    left: auto; }
+  .inline-border a {
+    color: #444444; }
+    .inline-border a:hover, .inline-border a:focus {
+      color: #da2f10; }
 
 /* =============================================================
    SERVICES SECTION STYLES

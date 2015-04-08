@@ -52,6 +52,8 @@
 				<h3 style="padding-left:25px">Mobile</h3>
 			</a>
 		 </div>
+		 		 </div>
+		 </div>
 	  <hr /><br>
     </section>
     <!-- PRICING  SECTION END-->
